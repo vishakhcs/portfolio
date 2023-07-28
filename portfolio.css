@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.bgimg {
+  background-image: url("bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .bgimg {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .bgimg {
+    background-size: contain;
+  }
+}
+
+
+.edu-col:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+
+
+
+
